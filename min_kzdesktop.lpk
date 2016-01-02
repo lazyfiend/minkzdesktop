@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="min_kzdesktop"/>
+    <Type Value="DesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Roy Gian Balderrama / Raphael Zimermann"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Min-KZDesktop is a fork of KZDesktop that turns the Form Editor into a delphi-like form editor but as a separate window (like Object Inspector) that is dock compatible when a docking solution is installed.
+
+original KZDesktop by Raphael Zimermann - www.raphaelz.com.br - lots of work from him since the Form Editor comes entirely from original project"/>
+    <Version Minor="1" Release="1"/>
+    <Files Count="5">
+      <Item1>
+        <Filename Value="kzlazdesktop.lfm"/>
+        <Type Value="LFM"/>
+      </Item1>
+      <Item2>
+        <Filename Value="kzlazdesktop.pas"/>
+        <UnitName Value="KZLazDesktop"/>
+      </Item2>
+      <Item3>
+        <Filename Value="kzdesktop.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="kzdesktop"/>
+      </Item3>
+      <Item4>
+        <Filename Value="ukzconfig.pas"/>
+        <UnitName Value="uKZConfig"/>
+      </Item4>
+      <Item5>
+        <Filename Value="kzdeskmanagers.pas"/>
+        <UnitName Value="kzdeskmanagers"/>
+      </Item5>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

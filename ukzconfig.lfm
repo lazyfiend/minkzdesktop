@@ -1,0 +1,111 @@
+object fmKZConfig: TfmKZConfig
+  Left = 0
+  Height = 365
+  Top = 0
+  Width = 539
+  ClientHeight = 365
+  ClientWidth = 539
+  TabOrder = 0
+  DesignLeft = 28
+  DesignTop = 43
+  object rgObjectInspectorPanel: TRadioGroup
+    Left = 0
+    Height = 62
+    Top = 40
+    Width = 539
+    Align = alTop
+    Anchors = []
+    AutoFill = True
+    Caption = 'Object Inspector position'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 3
+    ClientHeight = 42
+    ClientWidth = 533
+    Columns = 3
+    Items.Strings = (
+      'Separate'
+      'Left'
+      'Right'
+    )
+    TabOrder = 0
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Height = 66
+    Top = 164
+    Width = 539
+    Align = alTop
+    Caption = 'Design Editor background color'
+    ClientHeight = 46
+    ClientWidth = 533
+    TabOrder = 1
+    object ColorBox1: TColorBox
+      Left = 4
+      Height = 29
+      Top = 9
+      Width = 248
+      ItemHeight = 16
+      TabOrder = 0
+    end
+  end
+  object cbMainUse: TCheckBox
+    Left = 0
+    Height = 20
+    Top = 0
+    Width = 539
+    Align = alTop
+    Caption = 'Use Min-KZDesktop (Needs Restart to be in effect)'
+    TabOrder = 2
+  end
+  object cbDebug: TCheckBox
+    Left = 0
+    Height = 20
+    Top = 20
+    Width = 539
+    Align = alTop
+    Caption = 'Show Debug Messages'
+    TabOrder = 3
+  end
+  object StaticText1: TStaticText
+    Left = 0
+    Height = 89
+    Top = 276
+    Width = 539
+    Align = alBottom
+    Caption = 'KZDesktop (2011-2013) Min-KZDesktop (2016)'#10'This is an alpha version. Ignore the bugs if they are not critical... ;)'#10'Original By Raphael Zimermann - http://www.raphaelz.com.br/'#10'Edited to work with Docking Solutions and Lazarus 1.6+ By Roy Gian Balderrama'
+    TabOrder = 4
+  end
+  object rgComponentFindPanel: TRadioGroup
+    Left = 0
+    Height = 62
+    Top = 102
+    Width = 539
+    Align = alTop
+    Anchors = []
+    AutoFill = True
+    Caption = 'Find Component position'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 3
+    ClientHeight = 42
+    ClientWidth = 533
+    Columns = 3
+    Items.Strings = (
+      'None'
+      'Left'
+      'Right'
+    )
+    TabOrder = 5
+  end
+end
